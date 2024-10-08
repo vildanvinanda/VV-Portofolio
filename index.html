@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+
+  <!-- typed.js -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/pp3.png" alt="Vildan Vinanda" width="100">
+        </figure>
+
+        <div class="info-content">
+          <div class="container">
+            <h3 class="name2" >Hello, It's Me</h3>
+          </div>
+          <h1 class="name" title="Vildan Vinanda">Vildan Vinanda</h1>
+          <div class="container">
+            <h3 class="name2" >And I'm a</h3>
+          </div>
+          <div class="container">
+            <span class="multiple-text"></span>
+          </div>
+          
+        <div class="container">
+          
+          <a href="https://drive.google.com/file/d/12PXkc3SdlNFR71uuhDGtNM19xxNV-XPg/view?usp=sharing" target="_blank" class="btn">Download CV</a>
+        </div>
+      </div>
+          
+      <div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vildanvinanda4@gmail.com" class="contact-link">vildanvinanda4@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+6282127602881" class="contact-link">+6282127602881</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">30 April 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sumedang, Jawa Barat, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+           <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Perkenalkan nama saya Vildan Vinanda saya bekerja sebagai freelace fullstack android developer yang tinggal di Sumedang. Saya merupakan lulusan Informatika Universitas Sebelas April tahun
+            2023 dengan IPK 3,79. Saya memiliki pengalamanan magang sebagai front-end mobile developer selama 8 minggu di
+            Kilau Indonesia cabang Sumedang, disana saya mendapatkan pengalaman berharga sebagai Front End Developer. 
+            Komitmen saya terhadap keunggulan dan kreativitas mendorong saya untuk menghasilkan aplikasi dan desain berkualitas tinggi serta ramah pengguna. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Our <span>Service</span></h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design</h4>
+
+                <p class="service-item-text">
+                  Mobile UI desain, Web UI Desain, Vector, Ilustrasi, Mockup Product, dan Desain Lainnya
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+
+                <p class="service-item-text">
+                  Android Developer menggunakan java dan kotlin
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> 
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="header2">Latest <span> Project</span></h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER15.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER14.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER13.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER12.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER11.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/COVER10.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+     
+      <!-- 
+      - #RESUME 
+      -->
+      
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Sebelas April</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Pada Universitas Sebelas April saya mengambil fakultas teknik informatika dengan program studi informatika, saya mengambil jurusan tersebut dikarenakan saya ingin menambah skill dalam bidang IT. Saya lulus dengan IPK 3,79.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMA Negri 1 Conggeang</h4>
+
+              <span>2016 — 2019</span>
+
+              <p class="timeline-text">
+                Pada SMA Negri 1 Conggeang saya mengambil jurusan IPA dikarenakan saya sangat suka dengan praktikum dan juga pembelajaran yang berkaitan dengan hewan dan tumbuhan. Saya lulus dengan nilai rata-rata 85.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance - Personal</h4>
+              <h4 class="h4 timeline-item-titlespan">Fullstack Android Developer</h4>
+              <span>2022 — 2024</span>
+              <p class="timeline-text">
+                Sebagai seorang Freelance Fullstack Android Developer, saya telah berhasil menyelesaikan berbagai proyek pengembangan aplikasi Android untuk klien dari berbagai kota. Pengalaman ini memungkinkan saya untuk mengasah keterampilan teknis dan manajerial, serta memahami kebutuhan pasar yang dinamis.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kerja - Jack Army</h4>
+              <h4 class="h4 timeline-item-titlespan">Graphic Designer</h4>
+              <span>2021</span>
+              <p class="timeline-text">
+                Saya mulai mencoba bekerja menjadi desainer grafis pada thn 2021 disana saya bekerja mendesain baju, membuat mockup produk, medesain poster, membuat sablon, dan cutting sticker/sablon.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Magang - Kilau Indonesia cabang Sumedang</h4>
+              <h4 class="h4 timeline-item-titlespan">Front-End Developer Android</h4>
+              <span>2013 — 2015</span>
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My <span>Skills</span></h3>
+          <ul class="skills-list content-card">
+            <div class="skill-content">
+              <div class="row">
+                <div class="tab">
+                  <p class="tab-links active-link" onclick="opentab(event, 'siftskills')">Soft Skill</p>
+                  <p class="tab-links" onclick="opentab(event, 'hardskills')">Hard Skill</p>
+                </div>
+                <div class="tab-contents active-tab" id="siftskills">
+                  <ul>
+                    <li class="">Problem <span>Solving</span><br>
+                      <p>Saya dapat melakukan pemecahan masalah dengan kemampuan mendengar, meneliti, kreativitas, menganalisa, komunikasi, dan pengambilan keputusan untuk menghasilkan sebuah solusi dari sebuah masalah.</p>
+                    </li>
+                    <li>Never <span>Give Up</span> <br>
+                      <p>Saya merupakan orang yang tidak pantang menyerah sebelum hasil yang saya harapkan tercapai dengan melakukan segala cara yang dapat dilakukan.</p>
+                    </li>
+                    <li>Easy <span>Adaptation</span> <br>
+                      <p>Saya merupakan orang yang mudah untuk beradaptasi dalam lingkungan dan fleksibel dalam menghadapi perubahan.</p>
+                    </li>
+                    <li><span>Communicate</span><br>
+                      <p>Saya dapat berkomunikasi dengan baik bersama tim dan setiap orang. </p>
+                    </li>
+                  
+                    <li>Time <span>Management</span><br>
+                      <p>Saya merupakan orang yang dapat memanajemen waktu yang baik</p>
+                    </li>
+                    <li><span>Creativity</span><br>
+                      <p>Saya merupakan orang yang suka kreativitas dan membuat sebuah inovas baru.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="hardskills">
+                  <ul>
+                    <li>Graphic <span>Designer</span><br>
+                      <p>Saya mulai terjun di bidang desainer gafis itu pada tahun 2017 dan mulai menawarkan jasa desain grafis pada tahun 2018. Adapun jasa yang saya tawarkan seperti berikut :</p>
+                      <p>- Membuat vector / ilustrasi dari sebuah foto</p>
+                      <p>- Membuat mockup produk</p>
+                      <p>- Membuat desain spanduk/banner/poster keperluan media sosial</p>
+                      <p>- Membuat desain baju</p>
+                    </li>
+                    <li>Programming <span>Language</span><br>
+                      <p>Saya bisa menggunakan bahasa pemrograman Java, Kotlin dan React Native namun untuk sebuah pengalaman lebih banyak menggunakan Java </p>
+                    </li>
+                    <li><span>Database </span><br>
+                      <p>Saya dapat menggunakan database Room,  SQL dengan MySQL dan juga Firebase</p>
+                    </li>
+                    <li>Can Use <span>Whimsical</span><br>
+                      <p>Dalam membuat sebuah aplikasi kita akan membutuhkan sebuah flow dari sebuah sistem aplikasi yang akan dibangun untuk memperjelas alur atau aktivitas apa saja yang dapat dilakukan, dengan flow yang baik dapat mempermudah pemahaman seluruh tim dan menghasilkan aplikasi sesuai yang diharapkan</p>
+                    </li>
+                    <li>Can Use <span>GitHub</span><br>
+                      <p>Saya dapat menggunakan github untuk keperluan penyimpanan dan dokumentasi code</p>
+                    </li>
+                    <li>Can Use <span>Figma</span><br>
+                      <p>Saya selalu menggunakan figma untuk urusan membuat sebuah desain mockup dari suatu aplikasi yang akan dibuat, karena menurut saya aplikasi ini cukup simpel dan mudah untuk digunakan</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portofolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic Design</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div> 
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Graphic Design</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- Aplications -->
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="nikahyuk">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER9.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">Nikah Yuk</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi ini berfungsi untuk melakukan pemesanan yang berkaitan dengan pernikahan seperti pemesanan desain pernikahan, photography, videography, dll. </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="tbpanijayalaksana">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER10.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">TBPaniJayaLaksana</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi TBPaniJayaLaksana merupakan aplikasi yang dirancang untuk memudahkan karyawan dalam mengelola penjualan dan stok barang yang terdapat pada toko TB Pani Jaya Laksana</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="siswacare">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER11.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">Siswa Care</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Siswa Care merupakan aplikasi yang dirancang untuk memudahkan siswa/siswi MTS 3 Kuningan untuk melaporkan tindakan bullying yang dialaminya, aplikasi ini dibuat untuk memberikan rasa aman terhadap siswa dan siswi serta memudahkan pihak BP untuk melakukan tindakan cepat terhadap kasus bullying di sekolah</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="yaspiba">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER12.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">YASPIBA</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Yaspiba merupakan game edukasi untuk kelas 1-3 sd untuk mengenal huruf, angka, anggota badan bahasa arab, di game ini terdapat quiz.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="easylearning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER13.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">Easy Learning</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Easy Learning merupakan aplikasi pembelajaran yang dapat dibuka dimanapun dan kapan pun aplikasi ini menyediakan materi pembelajaran serta pengumpulan quiz atau test.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="maistiq">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER14.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">MAISTIQ</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi MAISTIQ merupakan aplikasi yang dirancang untuk memudahkan guru dalam melakukan absensi serta aplikasi ini juga dapat menampilkan informasi terkait status kehadiran anak nya secara realtime.</p> 
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="pedulitbc">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER15.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">PeduliTBC</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Peduli TBC merupakan aplikasi yang dirancang untuk memudahkan user dalam melakukan pendaftaran,pemeriksaan, serta jadwal pengambilan obat pasien TBC yang di uji coba di UPTD Puskesmas Subang.</p> 
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="kiblat">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER8.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Arah Kiblat</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+                
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Arah Kiblat merupakan aplikasi untuk memnentukan arah kiblat berbasis android dimana aplikasi ini dapat menentukan arah kiblat dimanapun dan kapanpun karena aplikasi ini menggunakan sensor gps dan sensor getar juga.</p> 
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="lovedthinks">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER7.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Loved Things</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Loved Things ini merupakan aplikasi e-comerce berbasis android yang dapat melakukan penjualan dan pembelian barang secara online.</p> 
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="diagnosatanaman">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER6.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Diagnosa Tanaman Terong</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+              
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Diagnosa Tanaman Terong merupakan aplikasi untuk melakukan diagnosa tanaman terong yang dimana disini user hanya perlu mencentang gejala" yang dialami tanaman terong nya maka sistem akan menampilkan hasil dagnosisnya berdasarkan gejala gejala tersebut.</p> 
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="bp">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER5.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Berbagi Pendidikan</h3>
+                  <h3 class="bp">React Native</h3>
+                </div>
+
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi App Berbagi Pendidikan merupakan sebuah aplikasi yang dibuat untuk memudahkan para oang tua dan donatur untuk mengontrol anak-anak nya yang dititipkan pada pihak Kilau Indonesia.</p> 
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="absenekstrakulikuler">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Absen Ekstrakulikuler</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi ini merupakan aplikasi yang dapat memudahkan pengurus ekstrakulikuler untuk memanage dan memberikan informasi terhadap user.</p> 
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="asetpinjaman">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER3.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">App Peminjaman Aset</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Asset SMKN Situraja merupakan sebuah aplikasi management asset berbasis android yang dapat mengelola peminjaman asset di SMKN Situraja aplikasi ini telah teruji dan mendapatkan feedback yang baik.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="kw">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER2.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">Kawan Ternak</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Kawan Ternak Merupakan sebuah aplikasi untuk melakukan recoreding atau pencatatan terkait hewan ternak yang efektif dan efisien telah di aplikasikan di peternakan bapak Yaya yang berlokasi di desa Pasireungit kec.Paseh kab.Sumedang,dengan adanya aplikasi ini peternak akan mudah untuk melakukan identifikasi hewan ternaknya karena setiap hewan dan kandang dapat diuatkan barcode masing masing untuk memudahkan dalam identifikasi hewan ternak, aplikasi ini berbasis android.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications" data-portfolio="suketdes">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/COVER1.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <div class="title-porto">
+                  <h3 class="project-title">Suketdes</h3>
+                  <h3 class="bp">Java</h3>
+                </div>
+
+                <p class="project-category">Applications</p>
+
+                <p class="project-description">Aplikasi Suketdes merupakan aplikasi pembuatan surat keterngan desa, dengan adanya aplikasi ini masyarakat dapat membuat surat keterangan dari desa tanpa harus datang ke kantor desa, aplikasi ini dibuat dengan metode Extreme Programming dan aplikasi ini masih sebatas uji coba.</p>
+
+              </a>
+            </li>
+
+           
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+          </ul>
+
+      
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close">&times;</span>
+                <div class="popup-body">
+                  <!-- Image Slider Container -->
+                  <div id="image-slider" class="image-slider"></div>
+                  <div class="popup-text">
+                    <h3 id="popup-title" class="title-left">Project Title</h3>
+                    <h3 class="title-right">Java</h3>
+                  </div>
+                  <div class="popup-countainer">
+                    <h3 id="popup-category" class="popupcategory">
+                      Project Category
+                    </h3>
+                    <p class="popupdesc">Description</p>
+                    <p id="popup-desc">Project Description</p>
+                    <ul id="popup-details">
+                      <li class="grid-item">
+                        <div>
+                          <h3 class="judul">Arsitektur</h3>
+                          <h3 id="isiArsitektur" class="isi">isi</h3>
+                        </div>
+                      </li>
+                      <li class="grid-item">
+                        <h3 class="judul">Arsitektur</h3>
+                        <h3 id="isiArsitektur" class="isi">isi</h3>
+                      </li>
+                      <li class="grid-item">
+                        <h3 class="judul">Fitur</h3>
+                        <h3 id="isiFitur" class="isi">isi</h3>
+                      </li>
+                      <li class="grid-item">
+                        <h3 class="judul">Database</h3>
+                        <h3 id="isiDatabase" class="isi">isi</h3>
+                      </li>
+                      <li class="grid-item">
+                        <h3 class="judul">Metode Pengembangan</h3>
+                        <h3 id="isiMetode" class="isi">isi</h3>
+                      </li>
+                      <li class="grid-item">
+                        <h3 class="judul">Tools</h3>
+                        <h3 id="isiTools" class="isi">isi</h3>
+                      </li>
+                    </ul>
+
+                      <!-- Button to link to Figma -->
+                      <div class="popup-button-container">
+                        <button id="view-mockup-btn" class="view-mockup-btn">Lihat Mockup</button>
+                      </div>
+                    
+
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d917.0302270772517!2d108.01661025618148!3d-6.795384325323343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1720572743025!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
